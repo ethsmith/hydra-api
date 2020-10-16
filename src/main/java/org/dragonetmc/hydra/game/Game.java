@@ -27,7 +27,17 @@ public interface Game {
 
     String getId();
 
+    void setId(String id);
+
     Set<Team> getTeams();
 
     Set<Objective> getObjectives();
+
+    Objective getObjective(String id);
+
+    void addObjective(Objective objective);
+
+    void removeObjective(Objective objective);
+
+    void removeObjective(String id);
 }
