@@ -1,6 +1,9 @@
 package org.dragonetmc.hydra.teleport;
 
 import org.bukkit.Location;
+import org.bukkit.entity.Player;
+
+import java.util.List;
 
 public interface Teleport {
 
@@ -12,5 +15,5 @@ public interface Teleport {
 
     void setLocation(Location location);
 
-    void teleport();
+    void teleport(List<Player> players);
 }
