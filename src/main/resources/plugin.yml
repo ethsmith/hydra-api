@@ -1,0 +1,5 @@
+name: Hydra
+version: ${project.version}
+main: org.dragonetmc.hydra.Hydra
+authors: [ethsmith]
+description: Minigame library for Minecraft.
