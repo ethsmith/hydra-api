@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Size {
-    enum type {SOLO, PARTY, TEAM}
+public @interface Solo {
+    //Sizes type();
 }
