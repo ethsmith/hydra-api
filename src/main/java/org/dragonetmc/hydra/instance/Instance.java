@@ -10,7 +10,11 @@ public interface Instance {
 
     String getSourceId();
 
-    String setSourceId();
+    void setSourceId(String source);
+
+    Instance getSource();
+
+    void setSource(Instance source);
 
     void create();
 
