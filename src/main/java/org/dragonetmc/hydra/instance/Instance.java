@@ -6,6 +6,12 @@ public interface Instance {
 
     void setId(String id);
 
+    boolean isClone();
+
+    String getSourceId();
+
+    String setSourceId();
+
     void create();
 
     void destroy();
