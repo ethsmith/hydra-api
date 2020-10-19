@@ -19,6 +19,4 @@ public interface Instance {
     void create();
 
     void destroy();
-
-    Object getInfo(String key);
 }
