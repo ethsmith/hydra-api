@@ -20,5 +20,5 @@ public interface Instance {
 
     void destroy();
 
-    String getInfo(String key);
+    Object getInfo(String key);
 }
